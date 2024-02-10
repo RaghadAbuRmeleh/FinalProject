@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CenterGravityStyle">
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="SpinnerItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+
+    <style name="CustomMaterialButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">#F2F8F8</item>
+        <item name="android:elevation">4dp</item> <!-- Optional -->
+        <item name="android:padding">16dp</item>
+    </style>
+
+
+</resources>

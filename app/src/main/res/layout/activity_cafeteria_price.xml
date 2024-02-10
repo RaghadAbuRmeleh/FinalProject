@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="128dp"
+        android:background="#4D7E3E"
+        android:padding="16dp"
+        android:text="Cafeterias"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        />
+
+    <Spinner
+        android:id="@+id/cafeteriaSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="80dp" />
+
+    <ListView
+        android:id="@+id/foodListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cafeteriaSpinner"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>
+
+

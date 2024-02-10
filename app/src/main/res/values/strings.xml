@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">finalProj</string>
+
+    <string name="grades">Grades</string>
+    <string name="username_hint">please enter your username</string>
+    <string name="password_hint">password</string>
+    <string name="login_button">login</string>
+    <string name="register_button">register</string>
+    <string name="back_button">back\n\n</string>
+
+</resources>
